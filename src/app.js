@@ -29,11 +29,11 @@ app.get('/savings', (req, res) => {
 });
 
 app.get('/checking', (req, res) => {
-    res.render('account', { account:accounts.checking });
+    res.render('account', { account: accounts.checking });
 });
 
 app.get('/credit', (req, res) => {
-    res.render('account', { accounts:accounts.credit });
+    res.render('account', { accounts: accounts.credit });
 });
 
 app.get('/profile', (req, res) => {
